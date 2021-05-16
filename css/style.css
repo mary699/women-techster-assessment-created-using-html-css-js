@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+.container{
+border: 2px solid red;
+height: 250vh;
+background-color: lightgray;
+
+}
+.header{
+    border: 2px solid blue;
+    height: 10vh;
+position: fixed;
+width: 100%;
+background-color: rgba(0, 0, 139, 0.254);
+}
+
+@media (max-width: 850px){
+    
+}
