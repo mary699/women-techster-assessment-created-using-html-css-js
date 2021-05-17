@@ -7,19 +7,159 @@ body{
     scroll-behavior: smooth;
 }
 .container{
-border: 2px solid red;
-height: 250vh;
-background-color: lightgray;
+    /* border: 2px solid red; */
 
 }
 .header{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 10vh;
-position: fixed;
-width: 100%;
-background-color: rgba(0, 0, 139, 0.254);
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 139, 0.254);
 }
 
+.content{
+    /* border: 2px solid red; */
+    height: 400vh;
+    position: absolute;
+    top: 60px;
+
+}
+.content-item{
+    /* border: 2px solid blue; */
+    height: 400vh;
+    margin: 0px 270px;
+    background-color: rgba(211, 211, 211, 0.309);
+    border-radius: 10px;
+
+
+}
+#item{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 45vh;
+   border-left: none;
+   border-top: none;
+   border-right: none;
+
+
+}
+
+.img-item{
+flex: 2;
+/* border: 2px solid red; */
+margin: 30px 50px 30px 120px;
+border-radius: 15px;
+height: 30vh;
+}
+
+.img-item img{
+    width: 100%;
+    border-radius: 15px;
+    height: 29.5vh;
+}
+
+.text-item{
+flex: 2;
+/* border: 2px solid blue; */
+margin: 30px 50px;
+border-radius: 15px;
+height: 30vh;
+
+}
+
+
+#name{
+   border: none; 
+text-align: center;
+margin-top: 50px;
+}
+
+
+#name a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#name a:hover{
+    color: plum;
+    cursor: text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************At Mobile Responsiveness */
 @media (max-width: 850px){
-    
+    body{
+        width: 100%;
+    }
+.container{
+    width: 100%;
+
+}
+
+.header{
+    width: 100%;
+
+}
+
+.content{
+    border: 2px solid red;
+    /* height: 250vh; */
+    position: relative;
+    top: 75px;
+
+}
+.content-item{
+    border: 2px solid blue;
+    /* height: 250vh; */
+    margin: 0px 10px;
+    background-color: lightgray;
+}
+
+
+
+
+
 }
